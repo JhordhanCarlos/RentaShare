@@ -1,0 +1,20 @@
+[
+{
+    "nomeProduto":"PlayStation 4",
+    "link_image":"https://images.livrariasaraiva.com.br/imagemnet/imagem.aspx/?pro_id=6064986&qld=90&l=430&a=-1",   
+    "desc" : "",
+    "valor" : "10",
+    "data_inicio":"",
+    "data_fim":"",
+    "pessoa_alugando":""
+},
+{
+    "nomeProduto":"Xbox One",
+    "desc" : "",
+    "link_image":"https://i.zst.com.br/images/console-xbox-one-s-1-tb-microsoft-hdr-4k-photo131312234-12-3d-14.jpg",
+    "valor" : "10",
+    "data_inicio":"",
+    "data_fim":"",
+    "pessoa_alugando":""
+}
+]
