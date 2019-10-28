@@ -5,18 +5,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.quicksearch/2.3.1/jquery.quicksearch.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/main.css"/>
     <script src="../dados.json"></script>
 
     <title>Aluguel de Itens</title>
   </head>
-  <body>
+  <body style="background: linear-gradient(90deg,#9837ff,#3d7ef2,#00f7d4);">
     <div class="conteiner-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4); opacity: 0.9; z-index: 1;">
         <div >
             <form class="form-inline my-2 my-lg-0">
             <div class="col-xs-10">
@@ -43,23 +45,23 @@
         <br>
         <center>
             <!--Home de Itens-->
-        <div class="card" style="width: 20rem;" id="playstation">
+        <div class="card" style="width: 20rem; opacity: 0.7;margin-top: 30px;" id="playstation">
             <img src="https://images.livrariasaraiva.com.br/imagemnet/imagem.aspx/?pro_id=6064986&qld=90&l=430&a=-1" class="card-img-top" alt="...">
             <div class="card-body">
             <p class="card-text">Play Station 4 </p>
             <p>Valor: R$10,00</p>
             
-            <button type="button" class="btn btn-primary" id="alugar1">Alugar</button>
+            <a href="tela-alugando" class="btn btn-primary stretched-link" id="alugar1">Alugar</a>
             </div>
         </div>
 
-        <div class="card" style="width: 20rem;" id="xbox">
+        <div class="card" style="width: 20rem; opacity: 0.7;margin-top: 30px;" id="xbox">
                 <img src="https://i.zst.com.br/images/console-xbox-one-s-1-tb-microsoft-hdr-4k-photo131312234-12-3d-14.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                 <p id="produto" class="card-text">Xbox one </p>
                 <p id="valor">Valor: R$10,00</p>
                 
-                <button type="button" class="btn btn-primary">Alugar</button>
+                <a href="tela-alugando" class="btn btn-primary stretched-link">Alugar</a>
                 </div>
         </div>
         <div id="switch"></div>
